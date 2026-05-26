@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Outputs generados (no parte del deploy)
+outputs/
+*.png
+*.pdf
+*.log
+
+# Archivos temporales de diagnóstico
+_diag*.py
+_chk*.py
+_check*.py
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

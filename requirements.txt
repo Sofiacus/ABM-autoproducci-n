@@ -1,0 +1,7 @@
+dash==4.1.0
+plotly==6.6.0
+pandas==3.0.2
+numpy==2.4.4
+mesa==3.5.1
+pyarrow==23.0.1
+gunicorn==23.0.0
