@@ -1,0 +1,31 @@
+escenario,param_name,value,description
+conservador,T,30,Horizonte temporal de simulación en años
+conservador,beta_oferta,0.05,Efecto de la oferta local (DENUE) sobre reducción de costos
+conservador,tau_ruralidad,0.15,Penalización por ruralidad (% rural) sobre costos de construcción
+conservador,lambda_congestion,0.02,Efecto de congestión por demanda local de construcción
+conservador,theta_min,0.01,Propensión mínima a ahorrar para vivienda
+conservador,theta_max,0.5,Propensión máxima a ahorrar para vivienda
+conservador,shock_prob_base,0.05,Probabilidad anual base de choque negativo
+conservador,shock_delta,0.2,Magnitud del choque (% reducción del ingreso)
+conservador,hacinamiento_umbral,2.5,Umbral de hacinamiento (personas por cuarto)
+conservador,estado_absorbente,5,Estado final absorbente Markov
+base,T,30,Horizonte temporal de simulación en años
+base,beta_oferta,0.15,Efecto de la oferta local (DENUE) sobre reducción de costos
+base,tau_ruralidad,0.3,Penalización por ruralidad (% rural) sobre costos de construcción
+base,lambda_congestion,0.05,Efecto de congestión por demanda local de construcción
+base,theta_min,0.01,Propensión mínima a ahorrar para vivienda
+base,theta_max,0.6,Propensión máxima a ahorrar para vivienda
+base,shock_prob_base,0.1,Probabilidad anual base de choque negativo
+base,shock_delta,0.3,Magnitud del choque (% reducción del ingreso)
+base,hacinamiento_umbral,2.5,Umbral de hacinamiento (personas por cuarto)
+base,estado_absorbente,5,Estado final absorbente Markov
+critico,T,30,Horizonte temporal de simulación en años
+critico,beta_oferta,0.3,Efecto de la oferta local (DENUE) sobre reducción de costos
+critico,tau_ruralidad,0.5,Penalización por ruralidad (% rural) sobre costos de construcción
+critico,lambda_congestion,0.1,Efecto de congestión por demanda local de construcción
+critico,theta_min,0.01,Propensión mínima a ahorrar para vivienda
+critico,theta_max,0.7,Propensión máxima a ahorrar para vivienda
+critico,shock_prob_base,0.2,Probabilidad anual base de choque negativo
+critico,shock_delta,0.4,Magnitud del choque (% reducción del ingreso)
+critico,hacinamiento_umbral,2.5,Umbral de hacinamiento (personas por cuarto)
+critico,estado_absorbente,5,Estado final absorbente Markov

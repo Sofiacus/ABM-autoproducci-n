@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python dashboard_completo.py)",
+      "Bash(python -c ' *)",
+      "Bash(pkill -f dashboard_politicas)",
+      "Bash(python dashboard_politicas.py)",
+      "Bash(pkill -9 -f \"dashboard_politicas\")",
+      "Bash(pkill -9 -f \"fast_sim\")",
+      "Bash(lsof -ti:8050)",
+      "Bash(xargs kill -9)",
+      "PowerShell(netstat *)",
+      "PowerShell(Stop-Process *)",
+      "PowerShell(python -c \"import fpdf2; print\\('fpdf2 ok'\\)\" 2>&1; python -c \"import fpdf; print\\('fpdf ok'\\)\" 2>&1; python -c \"import reportlab; print\\('reportlab ok'\\)\" 2>&1)",
+      "PowerShell(pip install *)",
+      "PowerShell(python -c \"import reportlab; print\\('reportlab', reportlab.Version\\)\")",
+      "PowerShell(python -c \"import dash, plotly, pandas, numpy, mesa, pyarrow, gunicorn; print\\('dash', dash.__version__\\); print\\('plotly', plotly.__version__\\); print\\('pandas', pandas.__version__\\); print\\('numpy', numpy.__version__\\); print\\('mesa', mesa.__version__\\); print\\('pyarrow', pyarrow.__version__\\); print\\('gunicorn', gunicorn.__version__\\)\" 2>&1)",
+      "PowerShell(python --version)",
+      "PowerShell(python -c \"import networkx; print\\(networkx.__version__\\)\")",
+      "PowerShell(Get-Item \"C:\\\\Users\\\\sgarc\\\\OneDrive\\\\Escritorio\\\\ABM y otros\\\\Code\\\\data\\\\hogares.parquet\" | Select-Object Name, @{N=\"Size_MB\";E={[math]::Round\\($_.Length/1MB, 2\\)}})"
+    ]
+  }
+}

@@ -83,9 +83,14 @@ def _paquete(res: dict) -> dict:
 
 
 # ── PRE-CALENTAR ───────────────────────────────────────────────────────────────
-print("Pre-calculando linea base (escenario=base, T=20)...")
-_obtener_base("base", 20)
-print("Listo. Abre http://127.0.0.1:8050")
+try:
+    print("Pre-calculando linea base (escenario=base, T=20)...")
+    _obtener_base("base", 20)
+    print("Listo.")
+except Exception as _e:
+    import traceback
+    print(f"[ADVERTENCIA] Pre-calentamiento fallido: {_e}")
+    traceback.print_exc()
 
 # ── HELPERS UI ─────────────────────────────────────────────────────────────────
 _lbl_style = {"fontSize": 13, "fontWeight": 600, "color": NEGRO,
